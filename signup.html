@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Heroku | Signup</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+	<div class="navbar" style="max-height: 90px;">
+		<img src="./img/heroku-horz.png" />
+	</div>
+	<div class="content">
+		<div class="container" align="right">
+			<div class="info" >
+				
+			</div>
+			<div class="form" align="left">
+				<form>
+					<label>First name <span class="ast">*</span></label><br>
+					<input type="text" value="First name"/><br>
+					<label>Last name <span class="ast">*</span></label><br>
+					<input type="text" value="Last name"/><br>
+					<label>Email address <span class="ast">*</span></label><br>
+					<input type="text" value="Email address"/><br>
+					<label>Company Name </label><br>
+					<input type="text" value="Company name"/><br>
+
+					<label>Role <span class="ast">*</span></label><br>
+					<select name="Role">
+						<option selected disabled>Role</option>
+						<option value="agency">Agency / Partner Developer</option>
+						<option value="hobbyist">Hobbyist</option>
+						<option value="prodev">Professional Developer</option>
+						<option value="student">Student</option>
+						<option value="manager">Technology / Business Manager</option>
+						<option value="other">Other</option>
+					</select><br>
+
+					<label>Country <span class="ast">*</span></label><br>
+					<select name="Country">
+						<option selected disabled>Country</option>
+						<option value="usa">United States</option>
+						<option value="mex">Mexico</option>
+						<option value="can">Canada</option>
+					</select><br>
+
+					<label>Primary development language <span class="ast">*</span></label><br>
+					<select name="Language">
+						<option selected disabled>Select a language</option>
+						<option value="python">Python</option>
+						<option value="java">Java</option>
+						<option value="c-sharp">C#</option>
+						<option value="js">Javascript</option>
+					</select><br>
+					<div class="g-recaptcha" data-sitekey="sample"></div>
+					<button type="submit" id="submit" onclick="submit()">CREATE FREE ACCOUNT</button><br>
+					<p>Signing up signifies that you have read and agree to the Terms of Service and our Privacy Policy.
+Cookie Preferences.</p>
+
+				</form>
+			</div>
+		</div>
+		
+	</div>
+
+	<script>
+		function submit(){
+			let fName = select.options[select.selectedIndex].text;
+			let lName = ;
+			let email = ;
+			let company = ;
+			let role = ;
+			let country = ;
+			let language = ;
+
+			
+		}
+
+	</script>
+
+</body>
+</html>
